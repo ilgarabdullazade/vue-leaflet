@@ -21,6 +21,7 @@
     "test": "vitest --coverage",
     "build": "run-p type-check build-only",
     "build-only": "vite build",
+    "prepack": "yarn build",
     "type-check": "vue-tsc --noEmit",
     "lint": "yarn run lint-cmd --fix src",
     "lint-cmd": "eslint src --ext .ts,.vue --ignore-path .gitignore",
