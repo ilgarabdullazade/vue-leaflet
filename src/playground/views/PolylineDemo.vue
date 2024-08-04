@@ -6,7 +6,7 @@
       name="OpenStreetMap"
     ></l-tile-layer>
 
-    <l-polyline
+    <l-polyline-offset
       :lat-lngs="[
         [47.334852, -1.509485],
         [47.342596, -1.328731],
@@ -18,13 +18,13 @@
   </l-map>
 </template>
 <script lang="ts">
-import { LMap, LPolyline, LTileLayer } from "@src/components";
+import { LMap, LPolylineOffset, LTileLayer } from "@src/components";
 
 export default {
   components: {
     LMap,
     LTileLayer,
-    LPolyline,
+    LPolylineOffset,
   },
   data() {
     return {

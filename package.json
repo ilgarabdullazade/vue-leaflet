@@ -30,7 +30,8 @@
     "docs:build": "vitepress build docs"
   },
   "dependencies": {
-    "vue": "^3.2.25"
+    "vue": "^3.2.25",
+    "leaflet-polylineoffset": "^1.1.1"
   },
   "peerDependencies": {
     "@types/leaflet": "^1.5.7",
